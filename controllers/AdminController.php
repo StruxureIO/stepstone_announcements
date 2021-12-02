@@ -38,6 +38,8 @@ class AdminController extends Controller
   public function actionAddAnnouncment() {
     
     $model = new \humhub\modules\stepstone_announcements\models\SsAnnouncements();
+    
+    $model->display = true;
 
     if ($model->load(Yii::$app->request->post()) && $model->validate() && $model->save()) {
       return $this->redirect(['admin/index']);
