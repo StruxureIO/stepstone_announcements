@@ -1,0 +1,18 @@
+
+#announcement-form {
+  padding: 10px;
+}
+
+#announcement-admin-search-wraper {
+    position: relative;
+}
+
+#announcements-admin-search {
+    background-color: transparent;
+    padding: 8px 6px;
+    position: absolute;
+    top: -36px;
+    left: 96%;
+}
+
+

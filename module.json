@@ -1,0 +1,12 @@
+{
+    "id": "stepstone_announcements",
+    "name": "Stepstone Announcements",
+    "description": "Module for displaying announcments on the dashboard",
+    "keywords": [
+    ],
+    "version": "1.0.1",
+    "humhub": {
+        "minVersion": "1.2"
+    },
+    "screenshots": ["resources/screen1.jpg"]
+}
