@@ -24,6 +24,7 @@ class AnnouncementsDashboard extends Widget
       $announcements = (new Query())
               ->select('ss_announcements.*')
               ->from('ss_announcements')
+              ->where(['display' => 1])
               ->orderBy(['date_created' => SORT_DESC])
               ->limit(3)
               ->all();
